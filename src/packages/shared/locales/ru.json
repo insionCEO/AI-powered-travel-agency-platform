@@ -1,0 +1,692 @@
+{
+  "appErrors": {
+    "unknown": "Произошла непредвиденная ошибка",
+    "badRequest": "Некорректный запрос",
+    "objectNotFound": "Объект не найден",
+    "helm": "Ошибка",
+    "pageNotFound": "Запрошенной страницы не существует",
+    "unauthenticated": "Для продолжения необходимо войти в систему",
+    "captchaError": "Ошибка верификации доступа. Проверьте подключение к сети, затем перезагрузите страницу и повторите попытку",
+    "emailingDisabled": "Операцию невозможно выполнить, поскольку для этого на веб-сайте необходимо включить функцию отправки электронных писем",
+    "forbidden": "Доступ запрещен",
+    "documentGenerationFailed": "Ошибка формирования документа",
+    "acsysIntegrationError": "Ошибка интеграции с CMS",
+    "electronIntegrationError": "Ошибка интеграции с Electron"
+  },
+  "httpCodes": {
+    "401": "Отсутствует аутентификация",
+    "404": "Страница не существует",
+    "500": "Неизвестная ошибка"
+  },
+  "errorBox": {
+    "homeLink": "На главную страницу"
+  },
+  "notAvailableInDemo": "Недоступно в демо-версии",
+  "notAllowedInPreviewMode": "Операцию невозможно выполнить в режиме черновиков",
+  "nav": {
+    "findFlights": "Авиабилеты",
+    "findStays": "Отели",
+    "login": "Вход",
+    "signUp": "Регистрация",
+    "navToggler": "переключатель доступности панели ссылок",
+    "search": {
+      "navItem": "Поиск по сайту",
+      "placeholder": "@:nav.search.navItem ...",
+      "noResults": "Не найдено (недоступно в демо-версии)"
+    },
+    "userBox": {
+      "navAvatarAlt": "аватар пользователя",
+      "favourites": "Избранное",
+      "myAccount": "Мой аккаунт",
+      "payments": "Способы оплаты",
+      "settings": "Настройки",
+      "support": "Поддержка",
+      "logout": "Выход"
+    }
+  },
+  "subscribeBox": {
+    "title": "Подписка на рассылку",
+    "heading": "Путешествие",
+    "text": "Черпайте вдохновение! Получайте скидки на путешествия, советы и истории.",
+    "emailPlaceholder": "Адрес электронной почты",
+    "subscribeBtn": "Подписаться",
+    "subscribeNotification": "Вы подписались"
+  },
+  "editableImage": {
+    "btnUpload": "Загрузить",
+    "btnCancel": "Отмена",
+    "editImgAlt": "отредактировать изображение перед загрузкой",
+    "croppingBoxTitle": "Выбрать область",
+    "uploading": "Загрузка...",
+    "issues": {
+      "noFilesSelected": "Файл не выбран",
+      "fileSizeExceeded": "Слишком большой размер файла. Его размер не может превышать {maxSizeMb} мегабайт",
+      "fileIsNotAnImage": "Выбранный файл не является изображением",
+      "imageLoadFailed": "Не удалось загрузить изображение",
+      "imageLoadAborted": "Загрузка изображения отменена",
+      "imageProcessingFailed": "Не удалось обработать изображение",
+      "unsupported": "Неподдерживаемый браузер"
+    }
+  },
+  "propertyGrid": {
+    "controlButtons": {
+      "change": "Изменить",
+      "apply": "Готово",
+      "cancel": "Отмена",
+      "delete": "Удалить",
+      "add": "Добавить"
+    },
+    "deleteConfirmMsg": "Вы уверены, что хотите удалить {itemText} ?"
+  },
+  "confirmBox": {
+    "btnYes": "Да",
+    "btnNo": "Нет",
+    "btnCancel": "Отмена"
+  },
+  "searchList": {
+    "notFound": "нет совпадений",
+    "termTooShort": "введите минимум {count} символа"
+  },
+  "maps": {
+    "disabled": "Интерактивная карта отключена в конфигурации веб-сайта"
+  },
+  "payments": {
+    "methods": {
+      "fullHeader": "Полная оплата",
+      "fullText": "Оплатите сразу полную стоимость",
+      "partHeader": "Частичная оплата",
+      "partText": "Оплатите {now} сейчас, а оставшаяся сумма ({rest}) будет автоматически списана с той же карты {date}. Без дополнительной комиссии.",
+      "moreInfo": "Подробнее"
+    },
+    "loginToPay": {
+      "title": "Войдите или зарегистрируйтесь для оплаты",
+      "withEmail": "Войти с помощью email"
+    },
+    "cards": {
+      "add": "Добавить новую карту",
+      "validThru": "Срок действия"
+    },
+    "payBtn": "Оплатить"
+  },
+  "searchOffers": {
+    "addPromoCode": "Добавить промокод",
+    "showFlights": "Показать рейсы",
+    "showStays": "Показать отели",
+    "flightsTab": "Авиабилеты",
+    "staysTab": "Отели",
+    "whereToFly": "Куда летим?",
+    "filters": {
+      "panelHeader": "Фильтры",
+      "price": "Цена",
+      "rating": "Рейтинг",
+      "from": "от",
+      "noResultsStub": "Отсутствуют результаты поиска",
+      "checklistMoreItems": "+{count} ещё",
+      "checklistCollapseItems": "свернуть"
+    },
+    "displayOptions": {
+      "cheapest": "Цена",
+      "best": "Лучшие",
+      "rating": "Рейтинг",
+      "otherSelected": "Ещё: {variantLabel}",
+      "showingTotal": "Показано {count} из {total}",
+      "sortBy": "Упорядочить по {factor}"
+    },
+    "scoreClass": {
+      "veryGood": "Отлично",
+      "good": "Хорошо",
+      "medium": "Средний",
+      "low": "Низий",
+      "veryLow": "Очень низкий"
+    },
+    "reviewsCount": "отзывов | отзыв | отзыва | отзывов",
+    "startingPrice": "цена от",
+    "pagingBtn": "Показать больше вариантов"
+  },
+  "searchFlights": {
+    "destinationCaption": "Откуда - Куда",
+    "fromPlaceholder": "Города вылета",
+    "toPlaceholder": "Город прилёта",
+    "tripCaption": "Путешествие",
+    "tripOneway": "В одну сторону",
+    "tripReturn": "Туда и обратно",
+    "dateSingle": "Дата",
+    "dateRange": "Отправление – возвращение",
+    "flightParamsCaption": "Пассажир — Класс",
+    "passenger": "пассажиров | пассажир | пассажира | пассажиров",
+    "class": {
+      "economy": "Эконом",
+      "comfort": "Комфорт",
+      "business": "Бизнес"
+    },
+    "fieldPassengers": "Кол-во пассажиров",
+    "fieldClass": "Класс",
+    "filters": {
+      "departureTime": "Время вылета",
+      "airlines": "Авиакомпании",
+      "trips": "Поездка",
+      "tripsDatesFlexible": "Гибкие даты",
+      "applyBtn": "Применить фильтры",
+      "resetBtn": "Сбросить"
+    },
+    "displayOptions": {
+      "timeToDeparture": "Ближайшие",
+      "quickest": "Время в пути",
+      "shortSummary": "${price} . {hours}ч {minutes}м",
+      "flights": "авиабилетов | авиабилета | авиабилетов | авиабилетов",
+      "other": "Ещё"
+    },
+    "airlineCompanyLogoAlt": "логотип авиакомпании",
+    "nonStop": "прямой рейс",
+    "flightDuration": "{hours}ч {minutes}м",
+    "viewDetails": "Подробнее"
+  },
+  "searchStays": {
+    "destinationCaption": "Город",
+    "destinationPlaceholder": "Укажите город",
+    "checkInCaption": "Дата заезда",
+    "checkOutCaption": "Дата выезда",
+    "roomsGuestsCaption": "Номера и гости",
+    "numberOfRooms": "Комнаты",
+    "numberOfGuests": "Гости",
+    "numRooms": "комнат | комната | комнаты | комнат",
+    "numGuests": "человек | человек | человека | человек",
+    "filters": {
+      "freebies": "Бесплатные услуги",
+      "amenities": "Инфраструктура"
+    },
+    "freebies": {
+      "breakfast": "Бесплатный завтрак",
+      "parking": "Бесплатная парковка",
+      "internet": "Бесплатный интернет",
+      "shuttle": "Бесплатный трансфер из аэропорта",
+      "cancellation": "Бесплатная отмена"
+    },
+    "amenities": {
+      "frontDesk": "24/7 стойка регистрации",
+      "airConditioner": "Кондиционер",
+      "fitness": "Фитнесс центр",
+      "indoorPool": "Крытый бассейн",
+      "outdoorPool": "Открытый бассейн",
+      "spa": "Spa и оздоровительный центр",
+      "restaraunt": "Ресторан",
+      "roomService": "Обслуживание номеров",
+      "bar": "Бар/гостиная",
+      "wifi": "Бесплатный Wi-Fi",
+      "teaCoffee": "Кофе-машина"
+    },
+    "displayOptions": {
+      "hotels": "Отели",
+      "motels": "Мотели",
+      "resorts": "Гостиницы",
+      "places": "мест | места | мест | мест",
+      "btnSubtext": "{n} мест | {n} место | {n} места | {n} мест",
+      "other": "Ещё"
+    },
+    "viewPlace": "Подробнее",
+    "hotelPhotoAlt": "главное фото отеля",
+    "stayRatingCaption": "Отель 5 звёзд",
+    "excludingTax": "б/у налогов",
+    "night": "ночь"
+  },
+  "ariaLabels": {
+    "ariaLabelToggleSection": "свернуть/развернуть секцию",
+    "ariaLabelDestination": "город",
+    "ariaLabelFrom": "город отправления",
+    "ariaLabelTo": "город прибытия",
+    "ariaLabelSwap": "поменять местами города прибытия и отправления",
+    "ariaLabelSearch": "начать поиск",
+    "ariaLabelRangeHandler": "кнопка задания порогового значения диапазона",
+    "btnThemeSwitcher": "переключатель цветовой схемы",
+    "btnSiteSearch": "@:nav.search.navItem",
+    "btnClose": "@:close",
+    "imgLinkMainPage": "изображение-ссылка на главную страницу",
+    "footerSocialLinkTwitter": "изображение-ссылка на Twitter",
+    "footerSocialLinkYoutube": "изображение-ссылка на YouTube",
+    "btnGithubLogin": "вход через GitHub",
+    "btnGoogleLogin": "вход через Google",
+    "btnTestLocalLogin": "вход через локальный тестовый провайдер",
+    "btnShareSocial": "поделиться в социальных сетях",
+    "btnGiveReview": "добавить отзыв",
+    "btnReviewEditorSend": "отправить текст отзыва на серве",
+    "btnReviewEditorCancel": "закрыть редактор текста отзыва",
+    "btnDeleteUserReview": "Удалить",
+    "btnEditUserReview": "Редактировать",
+    "btnLoginViaEmail": "Войти с помощью email",
+    "btnAddPaymentCard": "добавить платежную карту",
+    "btnRemovePaymentCard": "удалить платежную карту",
+    "navOfferBreadcrumbs": "хлебные крошки",
+    "navMain": "основная",
+    "navFooter": "дополнительная"
+  },
+  "footer": {
+    "destinations": {
+      "title": "Наши направления",
+      "canada": "Канада",
+      "alaska": "Аляска",
+      "france": "Франция",
+      "iceland": "Исландия"
+    },
+    "activities": {
+      "title": "Наша деятельность",
+      "northernLights": "Северное сияние",
+      "cruisingSailing": "Круизинг и парусный спорт",
+      "multiactivities": "Мультиактивность",
+      "kayaking": "Каякинг"
+    },
+    "travelBlogs": {
+      "title": "Блоги о путешествиях",
+      "bali": "Путеводитель по Бали",
+      "sriLanka": "Путеводитель по Шри-Ланке",
+      "peru": "Путеводитель по Перу"
+    },
+    "aboutUs": {
+      "title": "О нас",
+      "ourStory": "Наша история",
+      "workWithUs": "Работайте с нами"
+    },
+    "contactUs": {
+      "title": "Связаться с нами",
+      "email": "E-mail"
+    }
+  },
+  "site": {
+    "name": "Тестовый вебсайт (dev)",
+    "description": "Тест (dev)"
+  },
+  "indexPage": {
+    "title": "Главная страница",
+    "heading": {
+      "pre": "Помогая другим",
+      "main": "ЖИВИ И ПУТЕШЕСТВУЙ",
+      "sub": "Специальные предложения в соответствии с Вашим планом"
+    },
+    "popularCity": {
+      "imgAlt": "изображение города",
+      "flights": "Авиабилеты",
+      "stays": "Отели"
+    },
+    "companyReviewSection": {
+      "expandBtn": "Показать больше",
+      "collapseBtn": "Показать меньше",
+      "imgAlt": "обзор изображения",
+      "userCompany": "Weave Studios"
+    }
+  },
+  "flightsPage": {
+    "title": "Поиск авиабилетов",
+    "worldMap": {
+      "cityImgAlt": "изображение города",
+      "cityTravelInfoAria": "перейти к туристической информации по городу"
+    }
+  },
+  "searchPageCommon": {
+    "heading": {
+      "main": "Составьте список желаний для путешествия, мы сделаем все остальное",
+      "sub": "Специальные предложения в соответствии с Вашим планом"
+    },
+    "mainImageAlt": "основное изображение страницы"
+  },
+  "staysPage": {
+    "title": "Поиск отелей",
+    "cityPlacesCount": "{n} мест | {n} место | {n} места | {n} мест",
+    "searchHistoryEmpty": "Нет данных. Укажите название какого-нибудь известного города, например {cityLink}"
+  },
+  "offerDetailsPage": {
+    "bookBtn": "Забронировать"
+  },
+  "flightDetailsPage": {
+    "title": "Детали рейса",
+    "titleExt": "Рейс {from} - {to}",
+    "airplaneMainImageAlt": "изображение самолёта",
+    "airplaneFeatureImageAlt": "фото самолета",
+    "flightClassFeaturesTitle": "Услуги {class} класса",
+    "companyPolicies": {
+      "caption": "{company} - условия",
+      "cleaning": "Предполетная уборка, установка HEPA-фильтров салона.",
+      "screening": "Скрининг перед полетом."
+    }
+  },
+  "flightDetailsCard": {
+    "direction": {
+      "depart": "Отправление {date}",
+      "arrive": "Возвращение {date}"
+    }
+  },
+  "stayDetailsPage": {
+    "title": "Подробная информация Отеля",
+    "titleExt": "Подробная информация {stay} {from} - {to}",
+    "stayMainImageAlt": "фото отеля",
+    "stayServiceImageAlt": "фото номера",
+    "overviewHightlights": {
+      "newPark": "Новый парк",
+      "nightlife": "Рядом ночная жизнь",
+      "theater": "Недалеко от театра",
+      "clean": "Чистый Отель"
+    },
+    "availableRooms": {
+      "title": "Свободные номера",
+      "base": "Улучшенный номер – 1 двуспальная кровать или 2 односпальные кровати",
+      "city": "Улучшенный номер - Вид на город - 1 двуспальная кровать или 2 односпальные кровати"
+    },
+    "location": {
+      "title": "Местоположение на карте",
+      "viewOnWebsite": "На {webLink}",
+      "demoMarker": "Маркер расположения, не является реальным объектом (ДЕМО)"
+    },
+    "amenities": {
+      "title": "Инфраструктура",
+      "moreItems": "+{count} ещё",
+      "collapseItems": "свернуть"
+    },
+    "reviews": {
+      "title": "Отзывы",
+      "giveReviewBtn": "Добавить отзыв",
+      "count": "проверенных отзывов | проверенный отзыв | проверенных отзыва | проверенных отзывов",
+      "avatarImgAlt": "аватар автора отзыва",
+      "scorePickerTitle": "Пожалуйста, поставьте оценку от 1 до 5",
+      "confirmDelete": "Подтвердить операцию удаления?",
+      "validationErrEmptyReview": "Отзыв не может быть пустым",
+      "validationErrTooLongReview": "Текст отзыва слишком длинный",
+      "paging": "{of} из {total}",
+      "noReviews": "Нет отзывов",
+      "mustBeLoggedInToReview": "Для добавления отзывов необходимо войти в систему"
+    }
+  },
+  "stayDetailsCard": {
+    "checkIn": "Заезд",
+    "checkOut": "Выезд"
+  },
+  "bookingCommon": {
+    "pageTitle": "Подробности бронирования",
+    "bookingProtected": "Безопасность бронирования обеспечивается { by }",
+    "protectedBy": "golobe",
+    "pricingDecomposition": {
+      "caption": "Детали платежа",
+      "fare": "Стоимость услуг",
+      "discount": "Скидка",
+      "taxes": "Налоги",
+      "fee": "Сервисный сбор",
+      "total": "Всего"
+    },
+    "generatingDoc": "Идёт формирование документа...",
+    "docFileNamePrefix": "билет"
+  },
+  "ticket": {
+    "avatarImgAlt": "фото пассажира",
+    "flightClass": "класс",
+    "boardingPass": "Посадочный билет N’123",
+    "checkIn": "Заезд",
+    "checkOut": "Выезд",
+    "cityImgAlt": "@:flightsPage.worldMap.cityImgAlt",
+    "class": {
+      "economy": "@:searchFlights.class.economy @:ticket.flightClass",
+      "comfort": "@:searchFlights.class.comfort @:ticket.flightClass",
+      "business": "@:searchFlights.class.business @:ticket.flightClass",
+      "base": "Улучшенный номер",
+      "city": "Улучшенный номер - Вид на город"
+    },
+    "details": {
+      "date": "Дата",
+      "duration": "Время в пути",
+      "gate": "Выход",
+      "seat": "Место",
+      "checkInTime": "Время заезда",
+      "checkOutTime": "Время выезда",
+      "room": "Комната №",
+      "onArrival": "По прибытию"
+    },
+    "pdf": {
+      "title": "Билет"
+    }
+  },
+  "bookingPage": {
+    "pageTitle": "@:bookingCommon.pageTitle - билет",
+    "flightTitleExt": "Билет - @:flightDetailsPage.titleExt",
+    "stayTitleExt": "Билет - @:stayDetailsPage.titleExt",
+    "downloadBtn": "Скачать"
+  },
+  "bookingTnC": {
+    "title": "Пользовательское соглашение",
+    "payments": {
+      "title": "Платежи",
+      "paragraph1": "Если Вы покупаете билет с помощью дебетовой или кредитной карты через веб-сайт, мы будем обрабатывать эти платежи через автоматизированный безопасный общий платежный шлюз, который будет подвергаться проверке на мошенничество.",
+      "paragraph2": "Если Вы не предоставите правильный адрес для выставления счета по карте и/или информацию о владельце карты, Ваше бронирование не будет подтверждено, и общая стоимость может увеличиться. Мы оставляем за собой право отменить Ваше бронирование, если оплата будет отклонена по какой-либо причине или если Вы предоставили неверные данные карты. Если нам станет известно или мы будем уведомлены о любом мошенничестве или незаконной деятельности, связанной с оплатой бронирования, бронирование будет отменено, и Вы будете нести ответственность за все расходы и издержки, возникающие в результате таких действий.",
+      "paragraph3": "{companyName} может потребовать от владельца карты предоставить дополнительное подтверждение платежа по запросу, отправив онлайн-форму, посетив ближайший офис {companyName} или в аэропорту во время регистрации. {companyName} оставляет за собой право отказать в посадке или получении гарантийного платежа (наличными или с другой кредитной карты), если карта, первоначально использованная для покупки, не может быть предъявлена владельцем карты при регистрации или при получении билетов, или в случае, если первоначальный платеж был удержан или оспаривается банком-эмитентом карты. Данные кредитной карты хранятся в защищенной среде и передаются через международно-признанную систему."
+    },
+    "contactUs": {
+      "title": "Свяжитесь с нами",
+      "directions": "Если у Вас есть какие-либо вопросы о нашем веб-сайте или наших Условиях использования, свяжитесь с нами используя контактную информацию, размещённую на {siteUrl}"
+    }
+  },
+  "flightBookingPage": {
+    "title": "@:bookingCommon.pageTitle",
+    "titleExt": "@:bookingCommon.pageTitle - @:flightDetailsPage.titleExt"
+  },
+  "stayBookingPage": {
+    "title": "@:bookingCommon.pageTitle",
+    "titleExt": "@:bookingCommon.pageTitle - @:stayDetailsPage.titleExt"
+  },
+  "reviewEditor": {
+    "buttons": {
+      "bold": "Жирный",
+      "italic": "Курсив",
+      "strikethrough": "Зачеркивание",
+      "underline": "Подчеркивание", 
+      "bulletList": "Маркированный список",
+      "orderedList": "Пронумерованный список",
+      "blockquote": "Цитата",
+      "undo": "Отменить",
+      "redo": "Восстановить"
+    },
+    "controlButtons": {
+      "send": "Отправить",
+      "cancel": "@:searchFlights.filters.resetBtn"
+    },
+    "placeholder": "Напишите текст отзыва здесь..."
+  },
+  "travelCities": {
+    "bookBtn": {
+      "flight": "Забронировать рейс",
+      "stay": "Забронировать отель"
+    }
+  },
+  "travelDetails": {
+    "travelImgAlt": "одна из фотографий города",
+    "priceFrom": "От"
+  },
+  "favouritesPage": {
+    "title": "@:nav.userBox.favourites",
+    "flightsTab": "@:searchOffers.flightsTab",
+    "staysTab": "@:searchOffers.staysTab",
+    "numMarked": "{count} отмечено",
+    "noMarkedOffers": {
+      "flights": "Нет избранных авиабилетов",
+      "stays": "Нет избранных мест"
+    }
+  },
+  "accountPageCommon": {
+    "emailLabel": "Email",
+    "emailPlaceholder": "Введите Ваш email",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Введите здесь свой пароль",
+    "confirmPasswordLabel": "Подтвердите пароль",
+    "confirmPasswordPlaceholder": "Подтвердите введенный пароль",
+    "login": "Вход",
+    "loginWith": "Или войдите через",
+    "toHome": "На главную страницу",
+    "toLogin": "На страницу входа",
+    "backToHome": "На главную страницу",
+    "backToLogin": "На страницу входа",
+    "toAccount": "На страницу аккаунта",
+    "signUp": "Регистрация"
+  },
+  "loginPage": {
+    "title": "Вход",
+    "subTitle": "Войдите чтобы получить доступ к Вашему аккаунту Golobe",
+    "forms": {
+      "forgotPassword": "Забыли пароль?"
+    },
+    "havingAccount": "Нет аккаунта?",
+    "invalidCredentials": "Не удалось выполнить вход с указанными email и паролем"
+  },
+  "signUpPage": {
+    "title": "Регистрация",
+    "subTitle": "Укажите необходимые данные для получения персонального аккаунта.",
+    "forms": {
+      "firstNameLabel": "Имя",
+      "firstNamePlaceholder": "Введите Ваше имя",
+      "lastNameLabel": "Фамилия",
+      "lastNamePlaceholder": "Введите Вашу фамилию",
+      "createAccount": "Регистрация аккаунта"
+    },
+    "agreeWithPolicy": "Я соглашаюсь с {privacyLink}",
+    "privacyLinkText": "политикой конфиденциальности",
+    "alreadyHaveAccount": "Уже есть аккаунт?",
+    "signUpWith": "Или зарегистрироваться с помощью",
+    "emailWasAutoverified": "DEVELOPMENT ONLY: указанный адрес электронной почты был автоматически подтвержден системой, и теперь Вы можете войти в систему, используя свои учетные данные. Вы также можете включить функцию отправки электронных писем в конфигурационном файле сервера, чтобы использовать реальные электронные письма для верифицикации"
+  },
+  "signUpVerifyPage": {
+    "title": "Завершите регистрацию аккаунта",
+    "text": "На указанный email отправлено электронное письмо. Пожалуйста, проверьте входящую почту и перейдите по ссылке подтверждения в электронном письме, чтобы завершить процесс регистрации. Ссылка будет действительна в течение { tokenExpirationHours } часов."
+  },
+  "signUpCompletePage": {
+    "title": "Завершение регистрации аккаунта",
+    "text": {
+      "success": "Поздравляем! Процесс регистрации успешно завершен, и теперь вы можете войти в систему, используя предоставленные учетные данные.",
+      "alreadyConsumed": "Ссылка уже использовалась для подтверждения по электронной почте. Вы сможете войти в систему, используя адрес указанной электронной почты.",
+      "linkInvalid": "Ссылка недействительна или неработающая. Пожалуйста, проверьте ее правильность. Вы также можете попытаться зарегистрироваться еще раз, используя другой адрес электронной почты, или обратиться в службу поддержки, чтобы помочь Вам решить проблему.",
+      "linkExpired": "Срок действия ссылки истек. Пожалуйста, начните процесс регистрации заново, чтобы получить новую."
+    }
+  },
+  "emailVerifyCompletePage": {
+    "title": "Завершение проверки электронной почты",
+    "text": {
+      "success": "Поздравляем! Адрес электронной почты успешно подтвержден, и теперь Вы можете войти в систему, используя его.",
+      "alreadyConsumed": "Ссылка уже использовалась для подтверждения электронной почты. Вы сможете войти в систему, используя указанный email.",
+      "linkInvalid": "Ссылка недействительна или неработающая. Пожалуйста, проверьте ее корректность. Вы также можете еще раз обновить информацию об электронной почте на странице аккаунта пользователя, чтобы получить новую ссылку.",
+      "linkExpired": "Срок действия ссылки истек. Пожалуйста, обновите информацию об электронной почте на странице аккаунта пользователя еще раз, чтобы получить новую ссылку."
+    }
+  },
+  "forgotPasswordPage": {
+    "title": "Забыли пароль?",
+    "subTitle": "Не волнуйтесь, это случается со всеми нами. Введите свой адрес электронной почты, чтобы восстановить пароль",
+    "forms": {
+      "submit": "Восстановить"
+    },
+    "loginWith": "Или войти с помощью",
+    "userNotFound": "Пользователь с указанным адресом электронной почты не зарегистрирован в системе",
+    "emailNotVerified": "Электронная почта пользователя не подтверждена. Пожалуйста, проверьте свой почтовый ящик на наличие ссылки для подтверждения"
+  },
+  "forgotPasswordVerifyPage": {
+    "title": "Подтверждение сброса пароля",
+    "text": "Вам было отправлено электронное письмо. Пожалуйста, проверьте свой почтовый ящик и перейдите по ссылке для восстановления пароля в электронном письме. Ссылка будет действительна в течение { tokenExpirationHours } часов"
+  },
+  "forgotPasswordSetPage": {
+    "title": "Установить пароль",
+    "subTitle": "Ваш предыдущий пароль был сброшен. Установите новый пароль для своей учетной записи.",
+    "setPassword": "Установить пароль"
+  },
+  "forgotPasswordCompletePage": {
+    "title": "Завершение сброса пароля",
+    "text": {
+      "success": "Пароль был успешно изменен, и теперь Вы можете войти с его помощью.",
+      "alreadyConsumed": "Ссылка уже использовалась для сброса пароля. Вы можете войти в систему, используя новый пароль, или сбросить его снова, чтобы получить другую ссылку для восстановления.",
+      "linkInvalid": "Ссылка недействительна или неработающая. Пожалуйста, проверьте ее на корректность. Вы также можете попытаться сбросить пароль еще раз.",
+      "linkExpired": "Срок действия ссылки истек. Пожалуйста, запустите процесс восстановления пароля еще раз, чтобы получить новую."
+    },
+    "resetPassword": "Сбросить пароль"
+  },
+  "accountPage": {
+    "title": "Аккаунт",
+    "uploadCover": "Загрузить",
+    "coverAlt": "обложка пользователя",
+    "btnAddEmail": "Добавить еще один email",
+    "tabAccount": {
+      "title": "Учетная запись",
+      "firstNameCaption": "Имя",
+      "firstNamePlaceholder": "Введите имя",
+      "lastNameCaption": "Фамилия",
+      "lastNamePlaceholder": "Введите фамилию",
+      "passwordLabel": "Пароль",
+      "passwordPlaceholder": "Введите пароль",
+      "emailPlaceholder": "Введите email",
+      "emailVerifyNotification": "Ссылка для подтверждения была отправлена на {email}. Пожалуйста, проверьте свой почтовый ящик и перейдите по ссылке, чтобы подтвердить добавленный email.",
+      "emailWasAutoverified": "DEVELOPMENT ONLY: указанный адрес электронной почты был автоматически подтвержден системой, и теперь Вы можете войти с его помощью. Вы также можете включить функцию отправки электронных писем в конфигурационном файле сервера, чтобы использовать реальные электронные письма для верифицикации"
+    },
+    "tabHistory": {
+      "title": "Билеты/Бронь",
+      "upcoming": "Предстоящие", 
+      "passed": "Прошедшие",
+      "flightsTab": "@:searchOffers.flightsTab",
+      "staysTab": "@:searchOffers.staysTab",
+      "noOffers": "Билеты/бронь отсутствуют",
+      "btnDownload": "Скачать"
+    },
+    "tabPayments": {
+      "title": "Платежи"
+    },
+    "avatarAlt": "аватар пользователя"
+  },
+  "authFormsPhotoAlt": "изображение на странице",
+  "validations": {
+    "required": "Поле обязательно для заполнения",
+    "email": "Значение не является допустимым email",
+    "minLength": "Поле должно содержать как минимум {min} символов",
+    "password": "Пароль должен состоять не менее чем из 8 символов, содержать прописные и строчные буквы, хотя бы одну цифру и один специальный символ",
+    "sameAsPassword": "Пароли должны совпадать",
+    "emailAlreadyRegistered": "Пользователь с указанным email уже зарегистрирован",
+    "emailIsUsed": "Такой email уже используется",
+    "deletingLastEmail": "Единственный email не может быть удален, Вы не сможете войти в систему!",
+    "mustAgreeToPolicies": "Вы должны согласиться с Политикой конфиденциальности",
+    "maximumNumberOfRecordsReached": "Достигнуто максимально допустимое количество записей"
+  },
+  "emails": {
+    "registerAccount": {
+      "subject": "Завершите регистрацию аккаунта",
+      "title": "Подтвердите адрес электронной почты"
+    },
+    "emailVerify": {
+      "subject": "Подтвердите адрес электронной почты",
+      "title": "Подтвердите адрес электронной почты"
+    },
+    "passwordRecovery": {
+      "subject": "Запрос на восстановление пароля",
+      "title": "Восстановление пароля"
+    }
+  },
+  "privacyPage": {
+    "title": "Политика конфиденциальности"
+  },
+  "draftsPage": {
+    "title": "Переход в режим черновиков"
+  },
+  "cookieBanner": {
+    "title": "Использование cookie",
+    "text": "Этот веб-сайт или его сторонние компоненты используют файлы cookie, чтобы мы могли правильно веб-сайт отображать. Закрывая этот баннер, прокручивая эту страницу, нажимая ссылку или продолжая просматривать, Вы разрешаете нам использовать cookie, а также соглашаетесь с {privacyLink}",
+    "btnAccept": "Согласен"
+  },
+  "close": "Закрыть",
+  "calendarImgAlt": "значок календаря",
+  "mapsProviderYandex": "Яндекс.Карты",
+  "electron": {
+    "messageBox": {
+      "info": "Информация",
+      "warning": "Предупреждение",
+      "error": "Ошибка",
+      "confirm": "Подтверждение"
+    },
+    "menu": {
+      "theme": "Тема",
+      "themeDark": "Тёмная",
+      "themeLight": "Светлая",
+      "locale": "Язык",
+      "account": "Аккаунт",
+      "back": "Назад",
+      "next": "Вперёд",
+      "mainPage": "На главную страницу",
+      "contactUs": "@:footer.contactUs.title",
+      "searchSite": "@:nav.search.navItem"
+    }
+  }
+}

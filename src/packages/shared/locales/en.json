@@ -1,0 +1,692 @@
+{
+  "appErrors": {
+    "unknown": "An unexpected error occurred",
+    "badRequest": "Invalid request",
+    "objectNotFound": "Object not found",
+    "helm": "Error",
+    "pageNotFound": "This is not the page you're looking for",
+    "unauthenticated": "Login is required to proceed",
+    "captchaError": "Access verification error. Check your network connectivity, then reload page and try again",
+    "emailingDisabled": "Operation cannot be performed as it requires Emailing feature enabled on the website",
+    "forbidden": "Access is forbidden",
+    "documentGenerationFailed": "Failed to generate document",
+    "acsysIntegrationError": "CMS integration error",
+    "electronIntegrationError": "Electron shell integration error"
+  },
+  "httpCodes": {
+    "401": "Unauthenticated",
+    "404": "Not Found",
+    "500": "Unexpected error"
+  },
+  "errorBox": {
+    "homeLink": "Go back home"
+  },
+  "notAvailableInDemo": "Not available in demo",
+  "notAllowedInPreviewMode": "Operation is not allowed in preview mode",
+  "nav": {
+    "findFlights": "Find Flights",
+    "findStays": "Find Stays",
+    "login": "Login",
+    "signUp": "Sign up",
+    "navToggler": "navigation links toggler",
+    "search": {
+      "navItem": "Search site",
+      "placeholder": "@:nav.search.navItem ...",
+      "noResults": "Not found (or not available in demo)"
+    },
+    "userBox": {
+      "navAvatarAlt": "user avatar",
+      "favourites": "Favourites",
+      "myAccount": "My account",
+      "payments": "Payments",
+      "settings": "Settings",
+      "support": "Support",
+      "logout": "Logout"
+    }
+  },
+  "subscribeBox": {
+    "title": "Subscribe Newsletter",
+    "heading": "The Travel",
+    "text": "Get inspired! Receive travel discounts, tips and behind the scenes stories.",
+    "emailPlaceholder": "Your email address",
+    "subscribeBtn": "Subscribe",
+    "subscribeNotification": "You've subscribed"
+  },
+  "editableImage": {
+    "btnUpload": "Upload",
+    "btnCancel": "Cancel",
+    "editImgAlt": "edit image before upload",
+    "croppingBoxTitle": "Select area",
+    "uploading": "Uploading...",
+    "issues": {
+      "noFilesSelected": "File was not selected",
+      "fileSizeExceeded": "File is too large. It's size cannot exceed {maxSizeMb} megabytes",
+      "fileIsNotAnImage": "Selected file is not an image",
+      "imageLoadFailed": "Image load failed",
+      "imageLoadAborted": "Image load cancelled",
+      "imageProcessingFailed": "Failed to process image",
+      "unsupported": "Unsupported browser"
+    }
+  },
+  "propertyGrid": {
+    "controlButtons": {
+      "change": "Change",
+      "apply": "Apply",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "add": "Add"
+    },
+    "deleteConfirmMsg": "Are you sure want to delete {itemText} ?"
+  },
+  "confirmBox": {
+    "btnYes": "Yes",
+    "btnNo": "No",
+    "btnCancel": "Cancel"
+  },
+  "searchList": {
+    "notFound": "not found",
+    "termTooShort": "type at least {count} characters"
+  },
+  "maps": {
+    "disabled": "Interactive map is disabled in website configuration"
+  },
+  "payments": {
+    "methods": {
+      "fullHeader": "Pay in full",
+      "fullText": "Pay the total and you are all set",
+      "partHeader": "Pay part now, part later",
+      "partText": "Pay {now} now, and the rest ({rest}) will be automatically charged to the same payment method on {date}. No extra fees.",
+      "moreInfo": "More info"
+    },
+    "loginToPay": {
+      "title": "Login or Sign up to book",
+      "withEmail": "Continue with email"
+    },
+    "cards": {
+      "add": "Add a new card",
+      "validThru": "Valid Thru"
+    },
+    "payBtn": "Pay"
+  },
+  "searchOffers": {
+    "addPromoCode": "Add Promo Code",
+    "showFlights": "Show Flights",
+    "showStays": "Show Places",
+    "flightsTab": "Flights",
+    "staysTab": "Stays",
+    "whereToFly": "Where are you flying?",
+    "filters": {
+      "panelHeader": "Filters",
+      "price": "Price",
+      "rating": "Rating",
+      "from": "from",
+      "noResultsStub": "No results to filter",
+      "checklistMoreItems": "+{count} more",
+      "checklistCollapseItems": "collapse"
+    },
+    "displayOptions": {
+      "cheapest": "Cheapest",
+      "best": "Best",
+      "rating": "Rating",
+      "otherSelected": "Other: {variantLabel}",
+      "showingTotal": "Showing {count} of {total}",
+      "sortBy": "Sort by {factor}"
+    },
+    "scoreClass": {
+      "veryGood": "Very Good",
+      "good": "Good",
+      "medium": "Medium",
+      "low": "Low",
+      "veryLow": "Very Low"
+    },
+    "reviewsCount": "review | reviews",
+    "startingPrice": "starting from",
+    "pagingBtn": "Show more results"
+  },
+  "searchFlights": {
+    "destinationCaption": "From - To",
+    "fromPlaceholder": "Departure city",
+    "toPlaceholder": "Arrival city",
+    "tripCaption": "Trip",
+    "tripOneway": "One-way",
+    "tripReturn": "Return",
+    "dateSingle": "Date",
+    "dateRange": "Depart - Return",
+    "flightParamsCaption": "Passenger - Class",
+    "passenger": "passenger | passengers",
+    "class": {
+      "economy": "Economy",
+      "comfort": "Comfort",
+      "business": "Business"
+    },
+    "fieldPassengers": "Passengers",
+    "fieldClass": "Flight Class",
+    "filters": {
+      "departureTime": "Departure Time",
+      "airlines": "Airlines",
+      "trips": "Trips",
+      "tripsDatesFlexible": "My Dates Are Flexible",
+      "applyBtn": "Apply Filters",
+      "resetBtn": "Reset"
+    },
+    "displayOptions": {
+      "timeToDeparture": "Time to departure",
+      "quickest": "Quickest",
+      "shortSummary": "${price} . {hours}h {minutes}m",
+      "flights": "flight | flights",
+      "other": "Other sort"
+    },
+    "airlineCompanyLogoAlt": "airline company logo",
+    "nonStop": "non stop",
+    "flightDuration": "{hours}h {minutes}m",
+    "viewDetails": "View Details"
+  },
+  "searchStays": {
+    "destinationCaption": "Enter Destination",
+    "destinationPlaceholder": "Destination city",
+    "checkInCaption": "Check In",
+    "checkOutCaption": "Check Out",
+    "roomsGuestsCaption": "Rooms & Guests",
+    "numberOfRooms": "Rooms",
+    "numberOfGuests": "Guests",
+    "numRooms": "room | rooms",
+    "numGuests": "guest | guests",
+    "filters": {
+      "freebies": "Freebies",
+      "amenities": "Amenities"
+    },
+    "freebies": {
+      "breakfast": "Free breakfast",
+      "parking": "Free parking",
+      "internet": "Free internet",
+      "shuttle": "Free airport shuttle",
+      "cancellation": "Free cancellation"
+    },
+    "amenities": {
+      "frontDesk": "24hr front desk",
+      "airConditioner": "Air-conditioned",
+      "fitness": "Fitness Center",
+      "indoorPool": "Indoor Pool",
+      "outdoorPool": "Outdoor Pool",
+      "spa": "Spa and wellness center",
+      "restaraunt": "Restaurant",
+      "roomService": "Room service",
+      "bar": "Bar/Lounge",
+      "wifi": "Free Wi-Fi",
+      "teaCoffee": "Tea/coffee machine"
+    },
+    "displayOptions": {
+      "hotels": "Hotels",
+      "motels": "Motels",
+      "resorts": "Resorts",
+      "places": "place | places",
+      "btnSubtext": "{n} place | {n} places",
+      "other": "Other"
+    },
+    "viewPlace": "View Place",
+    "hotelPhotoAlt": "stay main photo",
+    "stayRatingCaption": "5 Star Hotel",
+    "excludingTax": "excl. tax",
+    "night": "night"
+  },
+  "ariaLabels": {
+    "ariaLabelToggleSection": "expand/collapse section",
+    "ariaLabelDestination": "destination city",
+    "ariaLabelFrom": "departure city",
+    "ariaLabelTo": "arrival city",
+    "ariaLabelSwap": "swap arrival & departure city",
+    "ariaLabelSearch": "start offers search",
+    "ariaLabelRangeHandler": "range slider handler",
+    "btnThemeSwitcher": "theme switcher",
+    "btnSiteSearch": "@:nav.search.navItem",
+    "btnClose": "@:close",
+    "imgLinkMainPage": "main page image link",
+    "footerSocialLinkTwitter": "Twitter image link",
+    "footerSocialLinkYoutube": "YouTube image link",
+    "btnGithubLogin": "login via GitHub",
+    "btnGoogleLogin": "login via Google",
+    "btnTestLocalLogin": "login via Test Local provider",
+    "btnShareSocial": "share on social networks",
+    "btnGiveReview": "give a review",
+    "btnReviewEditorSend": "send review text to server",
+    "btnReviewEditorCancel": "close review text editor",
+    "btnDeleteUserReview": "Delete",
+    "btnEditUserReview": "Edit",
+    "btnLoginViaEmail": "Login via email",
+    "btnAddPaymentCard": "add new payment card",
+    "btnRemovePaymentCard": "remove payment card",
+    "navOfferBreadcrumbs": "offer breadcrumbs",
+    "navMain": "main",
+    "navFooter": "additional"
+  },
+  "footer": {
+    "destinations": {
+      "title": "Our Destinations",
+      "canada": "Canada",
+      "alaska": "Alaska",
+      "france": "France",
+      "iceland": "Iceland"
+    },
+    "activities": {
+      "title": "Our Activities",
+      "northernLights": "Northern Lights",
+      "cruisingSailing": "Cruising & Sailing",
+      "multiactivities": "Multi-activities",
+      "kayaking": "Kayaking"
+    },
+    "travelBlogs": {
+      "title": "Travel Blogs",
+      "bali": "Bali Travel Guide",
+      "sriLanka": "Sri Lanka Travel Guide",
+      "peru": "Peru Travel Guide"
+    },
+    "aboutUs": {
+      "title": "About Us",
+      "ourStory": "Our Story",
+      "workWithUs": "Work with us"
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "email": "Email"
+    }
+  },
+  "site": {
+    "name": "Test website (dev)",
+    "description": "Test (dev)"
+  },
+  "indexPage": {
+    "title": "Home",
+    "heading": {
+      "pre": "Helping Others",
+      "main": "LIVE & TRAVEL",
+      "sub": "Special offers to suit your plan"
+    },
+    "popularCity": {
+      "imgAlt": "city image",
+      "flights": "Flights",
+      "stays": "Hotels"
+    },
+    "companyReviewSection": {
+      "expandBtn": "View more",
+      "collapseBtn": "View less",
+      "imgAlt": "review image",
+      "userCompany": "Weave Studios"
+    }
+  },
+  "flightsPage": {
+    "title": "Find Flights",
+    "worldMap": {
+      "cityImgAlt": "city image",
+      "cityTravelInfoAria": "navigate to city's travel info"
+    }
+  },
+  "searchPageCommon": {
+    "heading": {
+      "main": "Make your travel whishlist, we’ll do the rest",
+      "sub": "Special offers to suit your plan"
+    },
+    "mainImageAlt": "page's main image"
+  },
+  "staysPage": {
+    "title": "Find Stays",
+    "searchHistoryEmpty": "Nothing to display. Try to type name of a popular city, e.g. {cityLink}",
+    "cityPlacesCount": "{n} place | {n} places"  
+  },
+  "offerDetailsPage": {
+    "bookBtn": "Book Now"
+  },
+  "flightDetailsPage": {
+    "title": "Flight Details",
+    "titleExt": "Flight {from} - {to}",
+    "airplaneMainImageAlt": "airplane photo",
+    "airplaneFeatureImageAlt": "airplane feature photo",
+    "flightClassFeaturesTitle": "Basic {class} features",
+    "companyPolicies": {
+      "caption": "{company} Policies",
+      "cleaning": "Pre-flight cleaning, installation of cabin HEPA filters.",
+      "screening": "Pre-flight health screening questions."
+    } 
+  },
+  "flightDetailsCard": {
+    "direction": {
+      "depart": "Depart {date}",
+      "arrive": "Return {date}"
+    }
+  },
+  "stayDetailsPage": {
+    "title": "Stay Details",
+    "titleExt": "Stay Details {stay} {from} - {to}",
+    "stayMainImageAlt": "hotel photo",
+    "stayServiceImageAlt": "room photo",
+    "overviewHightlights": {
+      "newPark": "New park",
+      "nightlife": "Near nightlife",
+      "theater": "Near theater",
+      "clean": "Clean Hotel"
+    },
+    "availableRooms": {
+      "title": "Available rooms",
+      "base": "Superior room - 1 double bed or 2 twin beds",
+      "city": "Superior room - City view  - 1 double bed or 2 twin beds"
+    },
+    "location": {
+      "title": "Location/Map",
+      "viewOnWebsite": "View on {webLink}",
+      "demoMarker": "A sample point on a map, not a real object (DEMO)"
+    },
+    "amenities": {
+      "title": "Amenities",
+      "moreItems": "+{count} more",
+      "collapseItems": "collapse"
+    },
+    "reviews": {
+      "title": "Reviews",
+      "giveReviewBtn": "Give your review",
+      "count": "verified review | verified reviews",
+      "avatarImgAlt": "review user's avatar",
+      "scorePickerTitle": "Please, choose rating from 1 to 5",
+      "confirmDelete": "Confirm delete operation?",
+      "validationErrEmptyReview": "Review text cannot be empty",
+      "validationErrTooLongReview": "Review text is too long",
+      "paging": "{of} of {total}",
+      "noReviews": "No reviews",
+      "mustBeLoggedInToReview": "You have to log in to add a review"
+    }
+  },
+  "stayDetailsCard": {
+    "checkIn": "Check-In",
+    "checkOut": "Check-Out"
+  },
+  "bookingCommon": {
+    "pageTitle": "Booking details",
+    "bookingProtected": "Your booking is protected by { by }",
+    "protectedBy": "golobe",
+    "pricingDecomposition": {
+      "caption": "Price Details",
+      "fare": "Base Fare",
+      "discount": "Discount",
+      "taxes": "Taxes",
+      "fee": "Fee",
+      "total": "Total"
+    },
+    "generatingDoc": "Generating document...",
+    "docFileNamePrefix": "ticket"
+  },
+  "ticket": {
+    "avatarImgAlt": "passanger's photo",
+    "flightClass": "Class",
+    "boardingPass": "Boarding Pass N’123",
+    "checkIn": "Check-In",
+    "checkOut": "Check-Out",
+    "cityImgAlt": "@:flightsPage.worldMap.cityImgAlt",
+    "class": {
+      "economy": "@:searchFlights.class.economy @:ticket.flightClass",
+      "comfort": "@:searchFlights.class.comfort @:ticket.flightClass",
+      "business": "@:searchFlights.class.business @:ticket.flightClass",
+      "base": "Superior room",
+      "city": "Superior room - City view"
+    },
+    "details": {
+      "date": "Date",
+      "duration": "Flight time",
+      "gate": "Gate",
+      "seat": "Seat",
+      "checkInTime": "Check-In time",
+      "checkOutTime": "Check-Out time",
+      "room": "Room no.",
+      "onArrival": "On arrival"
+    },
+    "pdf": {
+      "title": "Ticket"
+    }
+  },
+  "bookingPage": {
+    "pageTitle": "@:bookingCommon.pageTitle - Ticket",
+    "flightTitleExt": "Ticket - @:flightDetailsPage.titleExt",
+    "stayTitleExt": "Ticket - @:stayDetailsPage.titleExt",
+    "downloadBtn": "Download"
+  },
+  "bookingTnC": {
+    "title": "Terms and Conditions",
+    "payments": {
+      "title": "Payments",
+      "paragraph1": "If you are purchasing your ticket using a debit or credit card via the Website, we will process these payments via the automated secure common payment gateway which will be subject to fraud screening purposes.",
+      "paragraph2": "If you do not supply the correct card billing address and/or cardholder information, your booking will not be confirmed and the overall cost may increase. We reserve the right to cancel your booking if payment is declined for any reason or if you have supplied incorrect card information. If we become aware of, or is notified of, any fraud or illegal activity associated with the payment for the booking, the booking will be cancelled and you will be liable for all costs and expenses arising from such cancellation, without prejudice to any action that may be taken against us.",
+      "paragraph3": "{companyName} may require the card holder to provide additional payment verification upon request by either submitting an online form or visiting the nearest {companyName} office, or at the airport at the time of check-in. {companyName} reserves the right to deny boarding or to collect a guarantee payment (in cash or from another credit card) if the card originally used for the purchase cannot be presented by the cardholder at check-in or when collecting the tickets, or in the case the original payment has been withheld or disputed by the card issuing bank. Credit card details are held in a secured environment and transferred through an internationally accepted system."
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "directions": "If you have any questions about our Website or our Terms of Use, please use contact details you can found at {siteUrl}"
+    }
+  },
+  "flightBookingPage": {
+    "title": "@:bookingCommon.pageTitle",
+    "titleExt": "@:bookingCommon.pageTitle - @:flightDetailsPage.titleExt"
+  },
+  "stayBookingPage": {
+    "title": "@:bookingCommon.pageTitle",
+    "titleExt": "@:bookingCommon.pageTitle - @:stayDetailsPage.titleExt"
+  },
+  "reviewEditor": {
+    "buttons": {
+      "bold": "Bold",
+      "italic": "Italic",
+      "strikethrough": "Strikethrough",
+      "underline": "Underline", 
+      "bulletList": "Bullet list",
+      "orderedList": "Ordered list",
+      "blockquote": "Blockquote",
+      "undo": "Undo", 
+      "redo": "Redo"  
+    },
+    "controlButtons": {
+      "send": "Send",
+      "cancel": "@:searchFlights.filters.resetBtn"
+    },
+    "placeholder": "Write your review here..."
+  },
+  "travelCities": {
+    "bookBtn": {
+      "flight": "Book Flight",
+      "stay": "Book a Hotel"
+    }
+  },
+  "travelDetails": {
+    "travelImgAlt": "one of city photos",
+    "priceFrom": "From"
+  },
+  "favouritesPage": {
+    "title": "@:nav.userBox.favourites",
+    "flightsTab": "Flights",
+    "staysTab": "Places",
+    "numMarked": "{count} marked",
+    "noMarkedOffers": {
+      "flights": "No favourite flights",
+      "stays": "No favourite places"
+    }
+  },
+  "accountPageCommon": {
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email here",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password here",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm entered password",
+    "login": "Login",
+    "loginWith": "Or login with",
+    "toHome": "To home",
+    "toLogin": "To login",
+    "backToHome": "Back to home",
+    "backToLogin": "Back to login",
+    "toAccount": "To account page",
+    "signUp": "Sign up"
+  },
+  "loginPage": {
+    "title": "Login",
+    "subTitle": "Login to access your Golobe account",
+    "forms": {
+      "forgotPassword": "Forgot Password"
+    },
+    "havingAccount": "Dont have account?",
+    "invalidCredentials": "Login with provided email and password has failed"
+  },
+  "signUpPage": {
+    "title": "Sign Up",
+    "subTitle": "Let’s get you all set up so you can access your personal account.",
+    "forms": {
+      "firstNameLabel": "First Name",
+      "firstNamePlaceholder": "Enter your first name here",
+      "lastNameLabel": "Last Name",
+      "lastNamePlaceholder": "Enter your last name here",
+      "createAccount": "Create account"
+    },
+    "agreeWithPolicy": "I agree to all the {privacyLink}",
+    "privacyLinkText": "Privacy Policies",
+    "alreadyHaveAccount": "Already have an account?",
+    "signUpWith": "Or Sign up with",
+    "emailWasAutoverified": "DEVELOPMENT ONLY: Provided email has been autoverified by the system and now you can login using your credentials. You could also enable emailing in server config to use actual emails for verification in signup flow"
+  },
+  "signUpVerifyPage": {
+    "title": "Complete Your Sign Up",
+    "text": "An email has been sent to you. Please, check your inbox and follow confirmation link in the email to complete your registration process. The link will be valid for { tokenExpirationHours } hours"
+  },
+  "signUpCompletePage": {
+    "title": "Completing account registration",
+    "text": {
+      "success": "Congratulations! Sign up process has been successfully completed and now you can login with provided credentials.",
+      "alreadyConsumed": "The link has already been used for email confirmation. You should be able to login using the email.",
+      "linkInvalid": "The link is invalid or broken. Please, check it for correctness. You may also try to register again using different email or contact support to assist you on the problem.",
+      "linkExpired": "The link has expired. Please, start sign up process again to obtain a new one."
+    }
+  },
+  "emailVerifyCompletePage": {
+    "title": "Completing email verification",
+    "text": {
+      "success": "Congratulations! Your email has been successfully verified and now you can login using the email.",
+      "alreadyConsumed": "The link has already been used for email confirmation. You should be able to login using the email.",
+      "linkInvalid": "The link is invalid or broken. Please, check it for correctness. You may also again try to update email information on user's account page to obtain a new link.",
+      "linkExpired": "The link has expired. Please, update email information on user's account page again to obtain a new link."
+    }
+  },
+  "forgotPasswordPage": {
+    "title": "Forgot your password?",
+    "subTitle": "Don’t worry, happens to all of us. Enter your email below to recover your password",
+    "forms": {
+      "submit": "Submit"
+    },
+    "loginWith": "Or login with",
+    "userNotFound": "User with specified email is not registered in system",
+    "emailNotVerified": "User email has not been verified. Please, check your inbox for confirmation link"
+  },
+  "forgotPasswordVerifyPage": {
+    "title": "Password reset confirmation",
+    "text": "An email has been sent to you. Please, check your inbox and follow password recovery link in the email. The link will be valid for { tokenExpirationHours } hours"
+  },
+  "forgotPasswordSetPage": {
+    "title": "Set a password",
+    "subTitle": "Your previous password has been reseted. Please set a new password for your account.",
+    "setPassword": "Set password"
+  },
+  "forgotPasswordCompletePage": {
+    "title": "Completing password reset",
+    "text": {
+      "success": "Password has been changed successfully and now you can login using it.",
+      "alreadyConsumed": "The link has already been used for password reset. You should be able to login using your new password or reset it again to obtain another recovery link",
+      "linkInvalid": "The link is invalid or broken. Please, check it for correctness. You may also try to reset password again.",
+      "linkExpired": "The link has expired. Please, start password recovery process again to obtain a new one."
+    },
+    "resetPassword": "Reset password"
+  },
+  "accountPage": {
+    "title": "Account",
+    "uploadCover": "Upload new cover",
+    "coverAlt": "user's cover",
+    "btnAddEmail": "Add another email",
+    "tabAccount": {
+      "title": "Account",
+      "firstNameCaption": "First name",
+      "firstNamePlaceholder": "Enter first name",
+      "lastNameCaption": "Last name",
+      "lastNamePlaceholder": "Enter last name",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter password",
+      "emailPlaceholder": "Enter email",
+      "emailVerifyNotification": "A confirmation link has been sent to {email}. Please, check your inbox and follow the link to verify added email.",
+      "emailWasAutoverified": "DEVELOPMENT ONLY: Provided email has been autoverified by the system and now you can login using it. You could also enable emailing in server config to use actual emails for verification"
+    },
+    "tabHistory": {
+      "title": "Tickets/Bookings",
+      "upcoming": "Upcoming",
+      "passed": "Passed",
+      "flightsTab": "@:searchOffers.flightsTab",
+      "staysTab": "@:searchOffers.staysTab",
+      "noOffers": "No tickets/bookings",
+      "btnDownload": "Download ticket"
+    },
+    "tabPayments": {
+      "title": "Payments"
+    },
+    "avatarAlt": "user's avatar"
+  },
+  "authFormsPhotoAlt": "page photo",
+  "validations": {
+    "required": "The field is required",
+    "email": "Value is not a valid email address",
+    "minLength": "The field value must have a min length of {min}",
+    "password": "Password must have at least 8 characters, must contain uppercase and lowercase letters, at least one number and one special character",
+    "sameAsPassword": "Passwords must match",
+    "emailAlreadyRegistered": "User with specified email has already registered",
+    "emailIsUsed": "Email address is already in use",
+    "deletingLastEmail": "The only email cannot be deleted, you won't be able to login!",
+    "mustAgreeToPolicies": "You must agree to Privacy Policies",
+    "maximumNumberOfRecordsReached": "Maximum allowed number of records reached"
+  },
+  "emails": {
+    "registerAccount": {
+      "subject": "Complete your account registration",
+      "title": "Confirm your email address"
+    },
+    "emailVerify": {
+      "subject": "Confirm your email address",
+      "title": "Confirm your email address"
+    },
+    "passwordRecovery": {
+      "subject": "Password reset request",
+      "title": "Password reset"
+    }
+  },
+  "privacyPage": {
+    "title": "Privacy policy"
+  },
+  "draftsPage": {
+    "title": "Entering drafts mode"
+  },
+  "cookieBanner": {
+    "title": "Using cookies",
+    "text": "This website or its third-party tools use cookies so that we can display this website correctly. By closing this banner, scrolling this page, clicking a link or continuing to browse you allow us to use cookies and also agree to {privacyLink}",
+    "btnAccept": "Agree"
+  },
+  "close": "Close",
+  "calendarImgAlt": "calendar icon",
+  "mapsProviderYandex": "Yandex.Maps",
+  "electron": {
+    "messageBox": {
+      "info": "Information",
+      "warning": "Warning",
+      "error": "Error",
+      "confirm": "Confirm"
+    },
+    "menu": {
+      "theme": "Theme",
+      "themeDark": "Dark",
+      "themeLight": "Light",
+      "locale": "Language",
+      "account": "Account",
+      "back": "Go back",
+      "next": "Go next",
+      "mainPage": "Go to main page",
+      "contactUs": "@:footer.contactUs.title",
+      "searchSite": "@:nav.search.navItem"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "eslint.useFlatConfig": true,
+  "files.associations": {
+      "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+      "strings": true
+  },
+  "files.watcherExclude": {
+    "**/externals/acsys/**": true,
+    "**/backend/.acsys/**": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    /*
+    ".nuxt": true,
+    ".srcset.cache": true,
+    "dist-electron": true,
+    "logs": true,
+    "node_modules": true,
+    "packages/backend/.acsys": true,
+    "packages/backend/node_modules": true,
+    "packages/shared/node_modules": true
+    */
+  }
+}
