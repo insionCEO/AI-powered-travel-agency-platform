@@ -1,0 +1,267 @@
+[{
+	"name": "Paris",
+	"rating": 1,
+	"promoLine": {
+		"en": "Eiffel Tower",
+		"fr": "tour Eiffel",
+		"ru": "Эйфелева башня"
+	},
+	"geo": {
+		"lon": 2.347042,
+		"lat": 48.858823
+	},
+	"visibleOnWorldMap": true
+}, 
+{
+	"name": "Bangkok",
+	"rating": 2,
+	"promoLine": {
+		"en": "Grand Palace",
+		"fr": "grand Palace",
+		"ru": "Большой дворец"
+	},
+	"geo": {
+		"lon": 100.610508,
+		"lat": 13.729277
+	},
+	"visibleOnWorldMap": true
+}, 
+{
+	"name": "London",
+	"rating": 3,
+	"geo": {
+		"lon": -0.090420,
+		"lat": 51.491708
+	},
+	"promoLine": {
+		"en": "Tower of London",
+		"fr": "Tour de Londres",
+		"ru": "Башня Лондона"
+	}
+},
+{
+	"name": "Dubai",
+	"rating": 4,
+	"geo": {
+		"lon": 55.205247,
+		"lat": 25.077816
+	},
+	"promoLine": {
+		"en": "Burj Khalifa",
+		"fr": "Burj Khalifa",
+		"ru": "Бурдж-Халифа"
+	}
+},
+{
+	"name": "Singapore",
+	"rating": 5,
+	"geo": {
+		"lon": 103.824707,
+		"lat": 1.340839
+	},
+	"promoLine": {
+		"en": "Marina Bay Sands",
+		"fr": "Sables de Marina Bay",
+		"ru": "Марина Бэй Сэндс"
+	}
+},
+{
+	"name": "New York City",
+	"rating": 6,
+	"geo": {
+		"lon": -73.979745,
+		"lat": 40.706902
+	},
+	"promoLine": {
+		"en": "Times Square",
+		"fr": "Times Square",
+		"ru": "Таймс Сквер"
+	}
+},
+{
+	"name": "Tokyo",
+	"rating": 7,
+	"geo": {
+		"lon": 139.431050,
+		"lat": 35.699764
+	},
+	"promoLine": {
+		"en": "Shibuya Crossing",
+		"fr": "Traversée de Shibuya",
+		"ru": "Пересечение Сибуя"
+	}
+},
+{
+	"name": "Istanbul",
+	"rating": 8,
+	"geo": {
+		"lon": 28.908527,
+		"lat": 41.014494
+	},
+	"promoLine": {
+		"en": "Hagia Sophia",
+		"fr": "Sainte-Sophie",
+		"ru": "Собор Святой Софии"
+	}
+},
+{
+	"name": "Rome",
+	"rating": 9,
+	"geo": {
+		"lon": 12.544523,
+		"lat": 41.898451
+	},
+	"promoLine": {
+		"en": "Colosseum",
+		"fr": "Colisée",
+		"ru": "Колизей"
+	}
+},
+{
+	"name": "Barcelona",
+	"rating": 10,
+	"geo": {
+		"lon": 2.140209,
+		"lat": 41.392710
+	},
+	"promoLine": {
+		"en": "Sagrada Família",
+		"fr": "Sagrada Familia",
+		"ru": "Саграда Фамилия"
+	}
+},
+{
+	"name": "Hong Kong",
+	"rating": 11,
+	"geo": {
+		"lon": 114.208827,
+		"lat": 22.246536
+	},
+	"promoLine": {
+		"en": "Victoria Harbour",
+		"fr": "Port Victoria",
+		"ru": "Виктория Харбор"
+	}
+},
+{
+	"name": "Amsterdam",
+	"rating": 12,
+	"geo": {
+		"lon": 4.853207,
+		"lat": 52.375567
+	},
+	"promoLine": {
+		"en": "Dam Square",
+		"fr": "Place du Dam",
+		"ru": "Площадь Дам"
+	}
+},
+{
+	"name": "Seoul",
+	"rating": 13,
+	"geo": {
+		"lon": 126.979578,
+		"lat": 37.561231
+	},
+	"promoLine": {
+		"en": "Gyeongbokgung Palace",
+		"fr": "Palais Gyeongbokgung",
+		"ru": "Дворец Кёнбоккун"
+	},
+	"visibleOnWorldMap": true
+},
+{
+	"name": "Milan",
+	"rating": 14,
+	"geo": {
+		"lon": 8.905288,
+		"lat": 45.520335
+	},
+	"promoLine": {
+		"en": "Duomo di Milano",
+		"fr": "Duomo de Milan",
+		"ru": "Дуомо ди Милано"
+	}
+},
+{
+	"name": "Kuala Lumpur",
+	"rating": 15,
+	"geo": {
+		"lon": 101.686717,
+		"lat": 3.139490
+	},
+	"promoLine": {
+		"en": "Petronas Twin Towers",
+		"fr": "les tours jumelles Petronas",
+		"ru": "Башни-близнецы Петронас"
+	}
+},
+{
+	"name": "Vienna",
+	"rating": 16,
+	"geo": {
+		"lon": 16.380061,
+		"lat": 48.220788
+	},
+	"promoLine": {
+		"en": "Schönbrunn Palace",
+		"fr": "Château de Schönbrunn",
+		"ru": "Дворец Шенбрунн"
+	}
+},
+{
+	"name": "Sydney",
+	"rating": 17,
+	"geo": {
+		"lon": 150.871688,
+		"lat": -33.834439
+	},
+	"promoLine": {
+		"en": "Sydney Opera House",
+		"fr": "Opéra de Sydney",
+		"ru": "Сиднейский оперный театр"
+	},
+	"visibleOnWorldMap": true
+},
+{
+	"name": "Prague",
+	"rating": 18,
+	"geo": {
+		"lon": 14.462889,
+		"lat": 50.059030
+	},
+	"promoLine": {
+		"en": "Prague Castle",
+		"fr": "Château de Prague",
+		"ru": "Пражский Град"
+	}
+},
+{
+	"name": "Los Angeles",
+	"rating": 19,
+	"geo": {
+		"lon": -118.408263,
+		"lat": 33.943593
+	},
+	"promoLine": {
+		"en": "Hollywood",
+		"fr": "Hollywood",
+		"ru": "Голливуд"
+	},
+	"visibleOnWorldMap": true
+},
+{
+	"name": "Cairo",
+	"rating": 20,
+	"geo": {
+		"lon": 31.350170,
+		"lat": 29.975116
+	},
+	"promoLine": {
+		"en": "Giza Pyramid Complex",
+		"fr": "Complexe pyramidal de Gizeh",
+		"ru": "Комплекс пирамид в Гизе"
+	},
+	"visibleOnWorldMap": true
+}]
+
